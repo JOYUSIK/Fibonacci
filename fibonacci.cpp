@@ -6,7 +6,6 @@ class Fibonacci {
 public:
     int of(int n) {
         if (n <= 1) return n;
-        if (n == 2) return 1;
-        return 2;
+        return of(n - 1) + of(n - 2);
     }
 };
