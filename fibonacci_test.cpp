@@ -11,3 +11,7 @@ public:
 TEST_F(FibFixture, Of0) {
     EXPECT_EQ(0, fib.of(0));
 }
+
+TEST_F(FibFixture, Of1) {
+    EXPECT_EQ(1, fib.of(1));
+}
