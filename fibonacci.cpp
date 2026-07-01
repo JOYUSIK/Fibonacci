@@ -5,6 +5,6 @@ using std::vector;
 class Fibonacci {
 public:
     int of(int n) {
-        return -1;
+        return 0;
     }
 };
