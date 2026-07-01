@@ -3,7 +3,11 @@
 
 using namespace testing;
 
-TEST(FibonacciTest, Of0) {
+class FibFixture : public Test {
+public:
     Fibonacci fib;
+};
+
+TEST_F(FibFixture, Of0) {
     EXPECT_EQ(0, fib.of(0));
 }
