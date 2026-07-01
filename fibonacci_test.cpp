@@ -23,3 +23,7 @@ TEST_F(FibFixture, Of2) {
 TEST_F(FibFixture, Of3) {
     EXPECT_EQ(2, fib.of(3));
 }
+
+TEST_F(FibFixture, Of5) {
+    EXPECT_EQ(5, fib.of(5));
+}
